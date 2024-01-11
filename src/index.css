@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "figtree-extra-bold";
+    src: url("/fonts/static/Figtree-ExtraBold.ttf");
+  }
+  ,
+  @font-face {
+    font-family: "figtree-semi-bold";
+    src: url("/fonts/static/Figtree-SemiBold.ttf");
+  }
+  ,
+  @font-face {
+    font-family: "figtree-italic-variable";
+    src: url("/fonts/Figtree-Italic-VariableFont_wght.ttf");
+  }
+  ,
+  @font-face {
+    font-family: "figtree-variable";
+    src: url("/fonts/Figtree-VariableFont_wght.ttf");
+  }
+}
