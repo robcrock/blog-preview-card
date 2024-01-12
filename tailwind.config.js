@@ -5,6 +5,12 @@ export default {
   content: ["./src/**/*.{html,jsx,js,ts,tsx}"],
   theme: {
     extend: {
+      height: {
+        screen: "100dvh",
+      },
+      width: {
+        screen: "100dvh",
+      },
       fontFamily: {
         sans: ["font-figtree-extra-bold", ...defaultTheme.fontFamily.sans],
       },
